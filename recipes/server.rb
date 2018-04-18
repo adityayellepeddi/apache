@@ -14,7 +14,7 @@ end
 
 file  '/var/www/html/index.html' do
 
-     content 'This is done by me' 
+     content 'This is the content of Venkata Krishna Aditya Yellepeddi' 
 
 end 
 
