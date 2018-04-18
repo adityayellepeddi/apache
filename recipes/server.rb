@@ -14,7 +14,12 @@ end
 
 file  '/var/www/html/index.html' do
 
-     content 'This is the content of Venkata Krishna Aditya Yellepeddi' 
+     content "Details of this machine/
+     HOSTNAME: #{node['hostname']}/
+     IPADDRESS: #{node['ipaddress']}/
+     CPU:#{node['cpu']['0']['mhz']}/
+     MEMORY:#{node['memory']['total']}
+"
 
 end 
 
